@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="4dip">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/swipe_main"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"/>
+    <LinearLayout android:orientation="horizontal"
+        android:gravity="center" android:measureWithLargestChild="true"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_weight="0">
+        <Button android:id="@+id/website"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="@string/website">
+        </Button>
+        <Button android:id="@+id/storeData"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Read data">
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>
