@@ -1,0 +1,12 @@
+{
+  "name": "tvectbeta",
+  "version": "0.0.1",
+  "description": "tvectbeta",
+  "dependencies": {
+    "node-mysql": "~0.4.1",
+    "mysql": "~2.5.3",
+    "socket.io": "~1.2.1",
+    "express": "~3.0.6",
+    "body-parser": "~1.9.3"
+  }
+}
